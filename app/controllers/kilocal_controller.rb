@@ -1,4 +1,6 @@
 class KilocalController < ApplicationController
+  before_action :set_kilocal, only: [:show, :edit, :update, :destroy]
+
   def new
     @kilocal = Kilocal.new
   end
@@ -47,4 +49,14 @@ class KilocalController < ApplicationController
     end
   end
 
+  private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_kilocal
+      @kilocal = Kilocal.find(params[:id])
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def kilocal_params
+      params.require(:kilocal).permit(:daily_intake, :daily_goal, :date)
+    end
 end
