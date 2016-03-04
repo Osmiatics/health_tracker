@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'daily_steps/index'
+
   root 'hello#show'
 
   get 'hello/show'
