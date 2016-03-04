@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :daily_exercises
   get 'dashboard/index'
 
   get 'daily_steps/index'
