@@ -49,10 +49,10 @@ group :development do
   gem 'spring'
 
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  # gem 'sqlite3'
 end
 
 group :production do
   #You'll need postgress eventually.
-    gem 'pg'
+    # gem 'pg'
 end

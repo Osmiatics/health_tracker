@@ -1,5 +1,16 @@
 Rails.application.routes.draw do
 
+  get 'kilocal/new'
+
+  get 'kilocal/create'
+
+  get 'kilocal/index'
+
+  get 'kilocal/show'
+
+  get 'kilocal/edit'
+
+  resources :weights
   root 'hello#show'
 
   get 'hello/show'
