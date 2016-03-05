@@ -1,12 +1,10 @@
 Rails.application.routes.draw do
-
-  resources :daily_exercises
-  get 'dashboard/index'
-
-  get 'daily_steps/index'
-
   root 'hello#show'
 
+  resources :daily_exercises
+
+  get 'dashboard/index'
+  get 'daily_steps/index'
   get 'hello/show'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
