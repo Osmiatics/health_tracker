@@ -9,21 +9,33 @@ two:
   date: 2016-03-08
 
 three:
+  amount: 2000
+  date: 2016-03-08
+
+four:
   amount: 5700
   date: 2016-03-09
 
-four:
-  amount: 4900
+five:
+  amount: 2900
   date: 2016-03-10
 
-five:
+six:
+  amount: 2000
+  date: 2016-03-10
+
+seven:
   amount: 5910
   date: 2016-03-11
 
-six:
-  amount: 5240
+eight:
+  amount: 2240
   date: 2016-03-12
 
-seven:
+nine:
+  amount: 3000
+  date: 2016-03-12
+
+ten:
   amount: 5870
   date: 2016-03-13

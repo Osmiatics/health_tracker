@@ -2,10 +2,45 @@
 
 one:
   exercise_type_id: 1
-  duration: 1
-  date: 2016-03-04
+  duration: 25
+  date: 2016-03-07
 
 two:
+  exercise_type_id: 4
+  duration: 20
+  date: 2016-03-08
+
+three:
+  exercise_type_id: 3
+  duration: 15
+  date: 2016-03-09
+
+four:
+  exercise_type_id: 2
+  duration: 10
+  date: 2016-03-09
+
+five:
+  exercise_type_id: 5
+  duration: 40
+  date: 2016-03-10
+
+six:
   exercise_type_id: 1
-  duration: 1
-  date: 2016-03-04
+  duration: 20
+  date: 2016-03-11
+
+seven:
+  exercise_type_id: 3
+  duration: 17
+  date: 2016-03-11
+
+eight:
+  exercise_type_id: 2
+  duration: 35
+  date: 2016-03-12
+
+nine:
+  exercise_type_id: 4
+  duration: 41
+  date: 2016-03-13
