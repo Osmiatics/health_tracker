@@ -1,9 +1,29 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  amount: 1
-  date: 2016-03-04
+  amount: 5000
+  date: 2016-03-07
 
 two:
-  amount: 1
-  date: 2016-03-04
+  amount: 5425
+  date: 2016-03-08
+
+three:
+  amount: 5700
+  date: 2016-03-09
+
+four:
+  amount: 4900
+  date: 2016-03-10
+
+five:
+  amount: 5910
+  date: 2016-03-11
+
+six:
+  amount: 5240
+  date: 2016-03-12
+
+seven:
+  amount: 5870
+  date: 2016-03-13
