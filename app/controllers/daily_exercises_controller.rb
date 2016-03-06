@@ -15,6 +15,7 @@ class DailyExercisesController < ApplicationController
   # GET /daily_exercises/new
   def new
     @daily_exercise = DailyExercise.new
+    @elist = ExerciseType.list_exercises
   end
 
   # GET /daily_exercises/1/edit

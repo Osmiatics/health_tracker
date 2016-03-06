@@ -6,7 +6,7 @@ class DailyStepTest < ActiveSupport::TestCase
   #   assert true
   # end
 
-  test "" do
-
-  end
+  # test "" do
+  #
+  # end
 end

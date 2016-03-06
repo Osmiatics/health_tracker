@@ -26,7 +26,7 @@ five:
   date: 2016-03-10
 
 six:
-  exercise_type_id: 1
+  exercise_type_id: 6
   duration: 20
   date: 2016-03-11
 
@@ -41,6 +41,6 @@ eight:
   date: 2016-03-12
 
 nine:
-  exercise_type_id: 4
+  exercise_type_id: 6
   duration: 41
   date: 2016-03-13
