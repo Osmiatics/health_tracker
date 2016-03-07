@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @kilocal.date %>
+</p>
+
+<p>
+  <strong>Daily goal:</strong>
+  <%= @kilocal.daily_goal %>
+</p>
+
+<p>
+  <strong>Daily intake:</strong>
+  <%= @kilocal.daily_intake %>
+</p>
+
+<%= link_to 'Edit', edit_kilocal_path(@kilocal) %> |
+<%= link_to 'Back', kilocals_path %>

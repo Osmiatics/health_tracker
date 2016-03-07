@@ -1,0 +1,2 @@
+module KilocalsHelper
+end

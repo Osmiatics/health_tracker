@@ -1,0 +1,29 @@
+<%= form_for(@kilocal) do |f| %>
+  <% if @kilocal.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@kilocal.errors.count, "error") %> prohibited this kilocal from being saved:</h2>
+
+      <ul>
+      <% @kilocal.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :daily_goal %><br>
+    <%= f.number_field :daily_goal %>
+  </div>
+  <div class="field">
+    <%= f.label :daily_intake %><br>
+    <%= f.number_field :daily_intake %>
+  </div>
+  <div class="field">
+    <%= f.label :date %><br>
+    <%= f.date_select :date %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

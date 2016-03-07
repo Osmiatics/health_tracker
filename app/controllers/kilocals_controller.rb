@@ -1,15 +1,15 @@
-class KilocalController < ApplicationController
+class KilocalsController < ApplicationController
   before_action :set_kilocal, only: [:show, :edit, :update, :destroy]
-
-  def new
-    @kilocal = Kilocal.new
-  end
 
   def index
     @kilocals = Kilocal.all
   end
 
   def show
+  end
+
+  def new
+    @kilocal = Kilocal.new
   end
 
   def edit
