@@ -42,11 +42,11 @@ class DailyStepsController < ApplicationController
   def update
     respond_to do |format|
       if @daily_step.udpate(daily_step_params)
-        format.html { redirect_to @daily_step, notice 'Daily step was successfully update.' }
+        format.html { redirect_to @daily_step, notice: 'Daily step was successfully update.' }
         format.json { render :show, status: :ok, location: @daily_step }
       else
         format.html { render :edit }
-        format.json { render json: @daily_step.error, status :unprocessable_entity }
+        format.json { render json: @daily_step.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -71,8 +71,4 @@ class DailyStepsController < ApplicationController
     def daily_step_params
       params.require(:daily_step).permit(:amount, :date)
     end
-end
-
-
-
 end

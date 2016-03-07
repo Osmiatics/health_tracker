@@ -2,9 +2,9 @@
 <p>Below you can see your money and transactions as well as create new ones.</p>
 
 <div>
+  <p>Average Steps Per Day: <%=@daily_steps_average%></p>
 
-
-
+  <p>Add more steps! <%= link_to "Steps", new_daily_step_path %></p>
   <p>Add an exercise! <%= link_to "Exercises", new_daily_exercise_path %></p>
 
 </div>
