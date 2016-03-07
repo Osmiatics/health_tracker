@@ -1,28 +1,3 @@
-== README
+#Welcome To HealthTRKR!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This webapp allows users to record and track different aspects of their diet and physical exercises in order to meet their desired weight. From the dashboard users can navigate to add meals she or he has eaten, the number of steps she or he has walked throughout different days, the exercises she or he has done those days, and one weight measurement per day.

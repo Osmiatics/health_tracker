@@ -56,5 +56,5 @@ end
 
 group :production do
   #You'll need postgress eventually.
-    # gem 'pg'
+    gem 'pg'
 end
