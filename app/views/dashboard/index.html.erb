@@ -1,11 +1,19 @@
 <h1>Welcome To HealthTRKR!</h1>
 <p>Below you can see your money and transactions as well as create new ones.</p>
 
-<div>
-  <p>Daily Net Calories Consumed: $<%=@net_daily_calories%></p>
-  <p>Average Steps Per Day: <%=@daily_steps_average%></p>
-  <p>Weight Loss To Go To Goal: $<%=@weight_reduction_left%></p>
 
+
+<div>
+  <p>Daily Net Calories Consumed: </p>
+  <p>Average Steps Per Day: <%=@daily_steps_average%></p>
+  <p>Weight Loss To Go To Goal: </p>
+</div>
+
+  <p></p>
+  <p></p>
+  <p></p>
+
+<div>
   <p>Add more steps! <%= link_to "Steps", new_daily_step_path %></p>
   <p>Add an exercise! <%= link_to "Exercises", new_daily_exercise_path %></p>
   <p>Add weight measurement! <%= link_to "Weight Measurements", new_weight_path %></p>

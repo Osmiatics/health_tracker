@@ -1,7 +1,7 @@
 class DashboardController < ApplicationController
   def index
-    # @net_daily_calories = Kilacal.net_daily_calories
+    @net_daily_calories = Kilocal.net_daily_calories
+    @exercise_calories = DailyExercise.calories_burned
     @daily_steps_average = DailyStep.average
-    # @weight_reduction_left = Weight.weight_left_until_goal
   end
 end
