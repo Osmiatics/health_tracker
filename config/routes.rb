@@ -1,19 +1,14 @@
 Rails.application.routes.draw do
+  root 'dashboard#index'
 
-  get 'kilocal/new'
-
-  get 'kilocal/create'
-
-  get 'kilocal/index'
-
-  get 'kilocal/show'
-
-  get 'kilocal/edit'
-
-  resources :weights
-  root 'hello#show'
-
+  get 'dashboard/index'
   get 'hello/show'
+
+  resources :kilocals
+  resources :weights
+  resources :daily_exercises
+  resources :daily_steps
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
